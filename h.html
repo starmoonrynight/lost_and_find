@@ -1,0 +1,39 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand">
+      <span class="brand-logo">🔍</span>
+      <span class="brand-name">失物招领</span>
+    </a>
+    <nav>
+      <button id="themeToggle">🌙</button>
+      <button class="btn btn-primary" id="openPublish">+ 发布信息</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>让每一件失物都能回家</h1>
+    <p>...</p>
+    <div class="search-bar">
+      <input id="searchInput" placeholder="搜索物品名称、地点、描述...">
+    </div>
+    <div class="stats">...</div>
+  </section>
+
+  <section class="toolbar">
+    <div class="tabs">
+      <button data-type="all" class="active">全部</button>
+      <button data-type="lost">寻物启事</button>
+      <button data-type="found">失物招领</button>
+    </div>
+    <div class="filters">
+      <select id="categoryFilter">...</select>
+      <select id="sortFilter">...</select>
+      <select id="statusFilter">...</select>
+    </div>
+  </section>
+
+  <section id="cardGrid" class="card-grid"></section>
+  <div id="emptyState"></div>
+</main>
